@@ -42,7 +42,7 @@ Analysis idea:
 # Tech stack:
 Python: https://www.python.org/ \
 Pandas: https://pandas.pydata.org/ \
-NumPy: https://numpy.org/doc/stable/reference/generated/numpy.arange.html \
+NumPy: https://numpy.org/ \
 Matplotlib: https://matplotlib.org/ \
 Seaborn: http://seaborn.pydata.org/ \
 statsmodels API: https://www.statsmodels.org/stable/index.html \
