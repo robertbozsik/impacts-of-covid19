@@ -34,6 +34,7 @@ https://docs.google.com/presentation/d/10YFiNjFc9VnyMCg5LFush3zTbEKQmnow2TRM-ujj
 Raw data: 
  - https://finance.yahoo.com/
  - https://fred.stlouisfed.org/
+ 
 Analysis idea:
  - https://www.ig.com/uk/news-and-trade-ideas/coronavirus-impact-on-the-stock-market
  - http://www.mooncap.com/wp-content/uploads/2018/03/MCM.bear-markets.Mar2016.pdf 
