@@ -4,18 +4,21 @@ This foreceast was submitted by Silviu Sica and Robert Bozsik as Project 2 durin
 # Task:
 The goal of this project was to practice creating and interpreting different types of visualizations using real world data as well as statistical analysis.
 
+# Data sourcing and data cleaning
+The project data was sourced from yahoo finance as csv and was imported as pandas dataframe object. Additional columns were added to the dataframe (E.g: abs_percentage_loss, days_of_recovery). For the analysis we consdered the adjusted close price of the index, to account for the changes in stock prices from corporate actions (E.g: dividends, stock splits).
+
 # Project details:
-We tried to predict the days of recovery of the S&P 500 index. Therefore we analyzed the historical crises.
+Given the corona virus crisis which caused a market crash, we tried to predict the days of recovery of the S&P 500 index. Therefore we analyzed historical market crises, with significant impact on the S&P 500 index, taken as market proxy.
 
 We defined a crisis as:
  - the adjusted close price decreased more than 20% compared to the all time high
- - the price returned back to the all time high.
+ - the price returned to the highest pre-crash value.
  
-After identifying 11 historical crisis (including The Great Depression, The dot-com crash, and The Great Recession), we calculated the absolute percentage loss and the days of recovery of each. \
+After identifying 11 historical crisis (including The Great Depression, The dot-com crash, and The Great Recession), we calculated the absolute percentage loss and the days of recovery (time-to recovery) of each event. \
 Then we created a polynomial regression model in order to predict the recovery of the current fall of S&P 500. \
-On the 19th of February 2020 the adjusted closing price was 3386.15, that we take as all time high. \
-On the 23rd of March 2020 the adjusted closing price was 2237.49, which we consider as the lowest point. \
-Percentage loss is equal to -33.9%.
+On the 19th of February 2020 the adjusted closing price was 3386.15, which was considered as the highest pre-crash value. \
+On the 23rd of March 2020 the adjusted closing price was 2237.49, considered as the lowest drop point. \
+Percentage loss (independent variable) was equal to -33.9%.
 
 Based on our model (Adj. R-squared: 0.957) the recovery of the S&P 500 from the corona crash will take:
  - in days: 905.65 days,
@@ -24,7 +27,7 @@ Based on our model (Adj. R-squared: 0.957) the recovery of the S&P 500 from the 
 
 The recession started on 2020-02-19 and will last until 2022-08-12.
 
-# Resurces:
+# Resources:
 Raw data: https://finance.yahoo.com/ \
 Analysis idea:
 - https://www.ig.com/uk/news-and-trade-ideas/coronavirus-impact-on-the-stock-market
