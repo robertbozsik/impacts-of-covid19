@@ -27,7 +27,7 @@ The recession started on 2020-02-19 and will last until 2022-08-12.
 # Resurces:
 Raw data: https://finance.yahoo.com/ \
 Analysis idea:
-- https://www.ig.com/uk/news-and-trade-ideas/coronavirus-impact-on-the-stock-market \
+- https://www.ig.com/uk/news-and-trade-ideas/coronavirus-impact-on-the-stock-market
 - http://www.mooncap.com/wp-content/uploads/2018/03/MCM.bear-markets.Mar2016.pdf 
 
 # Tech Stack:
