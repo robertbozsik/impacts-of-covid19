@@ -11,7 +11,7 @@ We defined a crisis as:
  - the adjusted close price decreased more than 20% compared to the all time high
  - the price returned back to the all time high.
  
-After identifying 11 historical crisis, we calculated the absolute percentage loss and the das of recovery of each. \
+After identifying 11 historical crisis (including The Great Depression, The dot-com crash, and The Great Recession), we calculated the absolute percentage loss and the days of recovery of each. \
 Then we created a polynomial regression model in order to predict the recovery of the current fall of S&P 500. \
 On the 19th of February 2020 the adjusted closing price was 3386.15, that we take as all time high. \
 On the 23rd of March 2020 the adjusted closing price was 2237.49, which we consider as the lowest point. \
