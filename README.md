@@ -4,8 +4,8 @@ This foreceast was submitted by Silviu Sica and Robert Bozsik as Project 2 durin
 # Task:
 The goal of this project was to practice creating and interpreting different types of visualizations using real world data as well as statistical analysis.
 
-# Data sourcing and data cleaning
-The project data was sourced from yahoo finance as csv and was imported as pandas dataframe object. Additional columns were added to the dataframe (E.g: abs_percentage_loss, days_of_recovery). For the analysis we consdered the adjusted close price of the index, to account for the changes in stock prices from corporate actions (E.g: dividends, stock splits).
+# Data sourcing and data cleaning:
+The project data was sourced from yahoo finance as csv and was imported as pandas dataframe object. Additional columns were added to the dataframe (E.g: abs_percentage_loss, days_of_recovery). For the analysis we considered the adjusted close price of the index, to account for the changes in stock prices from corporate actions (E.g: dividends, stock splits).
 
 # Project details:
 Given the corona virus crisis which caused a market crash, we tried to predict the days of recovery of the S&P 500 index. Therefore we analyzed historical market crises, with significant impact on the S&P 500 index, taken as market proxy.
