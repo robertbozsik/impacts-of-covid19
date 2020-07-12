@@ -7,9 +7,9 @@ The goal of this project was to practice creating and interpreting different typ
 # Project details:
 We tried to predict the days of recovery of the S&P 500 index. Therefore we analyzed the historical crises.
 
-We defined a crisis as 
+We defined a crisis as:
  - the adjusted close price decreased more than 20% compared to the all time high
- - the price returned back to the all time high
+ - the price returned back to the all time high.
  
 After identifying 11 historical crisis, we calculated the absolute percentage loss and the das of recovery of each. \
 Then we created a polynomial regression model in order to predict the recovery of the current fall of S&P 500. \
