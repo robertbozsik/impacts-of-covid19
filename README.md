@@ -28,7 +28,7 @@ Based on our model (Adj. R-squared: 0.957) the recovery of the S&P 500 from the 
 The recession started on 2020-02-19 and will last until 2022-08-12.
 
 # Project presentation:
-https://docs.google.com/presentation/d/10YFiNjFc9VnyMCg5LFush3zTbEKQmnow2TRM-ujjyUA/edit#slide=id.p
+https://docs.google.com/presentation/d/1AYtcn2SHYqswh0gmduJhVwyiMd9RpgvsxewJVwPHiD0/edit?usp=sharing
 
 # Resources:
 Raw data: 
